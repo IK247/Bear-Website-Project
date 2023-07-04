@@ -1,0 +1,93 @@
+body{
+   background-color: #dcf3ff	;
+}
+
+.heading{
+   font-size: 24px;
+   text-align: left;
+   font-family: Lato;
+   text-decoration: underline;
+   font-weight: 100;
+  
+}
+
+.title{
+   font-size: 40px;
+   text-align: left;
+   font-family: Abril Fatface;
+   text-decoration: underline;
+   font-weight: 100;
+   text-transform: uppercase;
+  
+}
+
+.column {
+   float: left;
+   width: 30%;
+   padding: 10px;
+ }
+
+ .row::after {
+   content: "";
+   clear: both;
+   display: table;
+ }
+
+ .paragraph {
+
+font-size: 16px;
+text-align: left;
+font-family: Lato;
+
+ }
+
+ .fact_list{
+   font-size: 16px;
+   text-align: left;
+   font-family: Lato;
+ }
+
+ .form{
+
+   margin-bottom: 10px;
+
+ }
+
+.video
+{
+
+  border: 3px solid rgb(5, 5, 5)
+
+  width = 700px;
+
+  height: 500px;
+
+}
+
+.quiz,
+
+.choices {
+    list-style-type: none;
+    padding: 0;
+}
+.choices li {
+    margin-bottom: 5px;
+}
+.choices label {
+    display: flex;
+    align-items: center;
+}
+.choices label,
+input[type="radio"] {
+    cursor: pointer;
+}
+input[type="radio"] {
+    margin-right: 8px;
+}
+
+.quizList{
+
+  list-style: none
+
+}
+
